@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outline">
+        <div class="inner">
+
+        </div>
+        <div class="number">
+            <button class="wse"  onclick=" currentvalue =  '';
+             
+            document.querySelector('.inner').innerHTML = currentvalue; ">C</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '1';
+             
+                document.querySelector('.inner').innerHTML = currentvalue;">1</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '2';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">2</button>
+        </div>
+        <div class="number">
+            <button class="wse" onclick=" currentvalue = currentvalue + '+';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">+</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '3';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">3</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '4';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">4</button>
+        </div>
+        <div class="number">
+            <button class="wse" onclick=" currentvalue = currentvalue + '-';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">-</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '5';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">5</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '6';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">6 </button>
+        </div>
+        <div class="number">
+            <button class="wse" onclick=" currentvalue = currentvalue + '*';
+             
+                document.querySelector('.inner').innerHTML = currentvalue;">*</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '7';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">7</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '8';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">8</button>
+        </div>
+        <div class="number">
+            <button class="wse" onclick=" currentvalue = currentvalue + '/';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">/</button>
+            <button class="wse"     onclick=" 
+            let result = eval(currentvalue) ;  currentvalue = result;
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">=</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '9';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">9</button>
+        </div>
+        <div class="number">
+            <button class="wse" onclick=" currentvalue = currentvalue + '0';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">0</button>
+            <button class="wse" onclick=" currentvalue = currentvalue + '.';
+             
+            document.querySelector('.inner').innerHTML = currentvalue;">.</button>
+        </div>
+    </div>
+
+    </div>
+
+
+    <script>
+        let currentvalue = '';
+        document.querySelector('.inner').innerHTML = currentvalue;
+    </script>
+</body>
+
+</html>

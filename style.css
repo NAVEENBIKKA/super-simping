@@ -1,0 +1,45 @@
+
+
+body{
+    position: relative;
+}
+
+.outline{
+    position: absolute;
+    margin: 100px 560px;
+    justify-content: center;
+    height: 42vw;
+    width: 24vw;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.inner{
+    font-size: 40px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    text-align: end;
+    height: 50px;
+    width: 315px;
+    margin: 24px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.number{
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    display: flex;
+
+  
+}
+.wse{
+    height: 74px;
+    width: 84px;
+    justify-content: center;
+    /* padding: 14px 20px; */
+    font-size: 30px;
+}
+
+
